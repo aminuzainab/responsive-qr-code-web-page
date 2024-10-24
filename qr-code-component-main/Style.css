@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body{
+    background-color: rgb(192, 202, 211);
+    justify-content: center;
+    display: flex;
+}
+
+*{
+    font-family: 'Outfit', sans-serif !important;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 22%;
+    border-radius: 30px;
+    padding: 27px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+p{
+    margin-top: -10px;
+    margin-bottom: 8px;
+    font-weight: 50;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !important;
+    padding: 5%;
+}
+
+.Image{
+    margin-top: -10px !important;
+    margin: 10px;
+    margin-left: -8px;
+    border-radius: 5%;
+    font-display: 200px;
+    width: 275px;
+    height: 290px;
+    
+}
+
+h2{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center !important;
+    font-weight: bold;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !important;
+    font-size: 20px;
+    /* padding: -2px; */
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 400px;
+        
+    }
+}
+
+@media screen and (min-width: 640px){
+    .container{
+        width: 300px;
+    }
+    
+}
+
+
+@media screen and (min-width: 375px){
+    .container{
+        width: 260px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .container{
+        width: 260px;
+    }
+}
+
+
+@media screen and (min-width: 425px){
+    .container{
+        width: 260px;
+    }
+}
+    
+
+
+@media screen and (min-width: 320px){
+    .container{
+        width: 260px;
+    }
+}
+    
