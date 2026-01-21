@@ -13,8 +13,6 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 10px;
     background-color: white;
     width: 22%;
@@ -95,6 +93,7 @@ h2 {
         width: 260px;
     }
 }
+
 
 
 
