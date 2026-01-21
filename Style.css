@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    display-flex;
+    display: flex;
     margin-bottom: 10px;
     background-color: white;
     width: 22%;
@@ -94,5 +94,6 @@ h2 {
         width: 260px;
     }
 }
+
 
 
