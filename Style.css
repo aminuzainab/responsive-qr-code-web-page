@@ -4,6 +4,7 @@
 body{
     background-color: rgb(192, 202, 211);
     display: flex;
+    min-heiht: 100vh;
     justify-content: center;
 }
 
@@ -12,7 +13,7 @@ body{
 }
 
 .container{
-    margin-top: 50px;
+    
     margin-bottom: 10px;
     background-color: white;
     width: 22%;
@@ -95,3 +96,4 @@ h2{
     }
 }
     
+
