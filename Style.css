@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 
-body{
+body {
     background-color: rgb(192, 202, 211);
 }
 
-*{
+* {
     font-family: 'Outfit', sans-serif !important;
 }
 
-.container{
+.container {
     display: flex;
-    min-heiht: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ body{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !important;
 }
 
-p{
+p {
     margin-top: -10px;
     margin-bottom: 8px;
     font-weight: 50;
@@ -32,7 +32,7 @@ p{
     padding: 5%;
 }
 
-.Image{
+.Image {
     margin-top: -10px !important;
     margin: 10px;
     margin-left: -8px;
@@ -40,62 +40,57 @@ p{
     font-display: 200px;
     width: 275px;
     height: 290px;
-    
+
 }
 
-h2{
+h2 {
     margin-top: 2px;
     margin-bottom: 10px;
     text-align: center !important;
     font-weight: bold;
     text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !important;
     font-size: 20px;
-    /* padding: -2px; */
 }
 
 @media screen and (min-width: 768px) {
-    .container{
+    .container {
         width: 400px;
-        
+
     }
 }
 
-@media screen and (min-width: 640px){
-    .container{
+@media screen and (min-width: 640px) {
+    .container {
         width: 300px;
     }
-    
+
 }
 
 
-@media screen and (min-width: 375px){
-    .container{
+@media screen and (min-width: 375px) {
+    .container {
         width: 260px;
     }
 }
 
 
-@media screen and (min-width: 768px){
-    .container{
+@media screen and (min-width: 768px) {
+    .container {
         width: 260px;
     }
 }
 
 
-@media screen and (min-width: 425px){
-    .container{
+@media screen and (min-width: 425px) {
+    .container {
         width: 260px;
     }
 }
-    
 
 
-@media screen and (min-width: 320px){
-    .container{
+
+@media screen and (min-width: 320px) {
+    .container {
         width: 260px;
     }
 }
-    
-
-
-
