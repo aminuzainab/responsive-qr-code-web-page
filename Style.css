@@ -6,6 +6,7 @@ body{
     display: flex;
     min-heiht: 100vh;
     justify-content: center;
+    align-items: center;
 }
 
 *{
@@ -96,4 +97,5 @@ h2{
     }
 }
     
+
 
